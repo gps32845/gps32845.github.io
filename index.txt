@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>Index.html</title>
+      <style type="text/css">
+		P {font-family:"Arial"}
+		body {text-align:center;background-color:#FF7254}
+		table#t01 {background-color:#EBE9E5}
+		ol#l01 {text-align: center; list-style-position:inside}
+		table.center {margin-left:auto;margin-right:auto;}
+	</style>
+</head>
+	<body>
+    	<h1><b>Endangered Species: Rhinos</b></h1>
+    	<h2><sub>By: George Parker Swift</sub></h2>
+    		<p><img src="https://wildfor.life/sites/default/files/species/hero/rhinocero_hero.jpg" alt="Rhinos" width="304" height="228"></p>
+		<p><em>African White Rhinoceros</em></P>
+			<p>Rhinos are quite extraordinary animals. There are five different rhino species. Rhinos are typically found in the warmer regions of the eastern hemisphere, with most residing in Africa, China, and India. Rhinos have a herbivorous diet, have one or two horns above their nose, and are some of the largest weighing mamals that remain on Earth. All Rhino species have the potential to exceed the weight of one ton! All of the species of Rhinoceros has a different average size.
+		 The largest member of the rhinoceros family is the African White Rhinoceros while the smallest one is the Sumatran Rhinoceros.</p>
+		<table id="t01" border="1" class="center">
+		<tr>
+			<th>Rhino Species</th><th>White Rhinoceros</th><th>Black Rhinoceros</th><th>Sumatran Rhinoceros</th><th>Indian Rhinoceros</th><th>Javan Rhinoceros</th>
+		</tr>
+		<tr>
+			<td>Avg. Height</td><td>6.25 <sup>ft</sup></td><td>5.3 <sup>ft</sup></td><td>4.25 <sup>ft</sup></td><td>6.15 <sup>ft</sup></td><td>5.2 <sup>ft</sup></td>
+		<tr>
+			<td>Avg. Weight</td><td>5,600 <sup>lbs</sup></td><td>4,800 <sup>lbs</sup></td><td>2,030 <sup>lbs</sup></td><td>5,400 <sup>lbs</sup></td><td>3,800 <sup>lbs</sup></td>
+		</table>
+		 <p>Rhinos are a rare species, with many of their kind at risk from human activities such as poaching. The horns of rhinos are considered a valuable material for pointless collectors' trinkets. In fact, rhinos are one of the most endangered species in the world. All five rhinoceros species can be considered endangered or vulnerable. Some of the species are approaching critically low numbers. Gracious foundations like the World Wildlife Fund are already taking measures to save these helpless animals.</p>
+		 <p>You would be quite surprised how few rhinos are left out of the more endangered rhino species. Here are the top 3 most extinct rhino species:</p>
+			 <ol id="l01">
+  				<li>Javan Rhinoceros - <strong>60 Remaining</strong></li>
+ 				<li>Sumatran Rhinoceros - <strong>216 Remaining</strong></li>
+				<li>Indian Rhinoceros - <strong>3,555 Remaining</strong></li>
+			</ol>
+		<form style="display: inline" action="https://www.worldwildlife.org/species/rhino" method="get">
+			<p><button>Donate Here</button></p>
+  		</form>
+		<p><small>For more information on rhinos, you can also visit: <a href="https://en.wikipedia.org/wiki/Rhinoceros"> This Wikipedia Page on Rhinos.</a></small></p>
+		<p id="demo"></p>
+
+		<type>
+		document.getElementById("demo").innerHTML = Date();
+		</type>
+	</body>
+</html>
